@@ -1,0 +1,4 @@
+Version: 5
+Search-Mode: plain
+Source: https://api.github.com/repos/mate-desktop/@PACKAGE@/releases?per_page=50
+Matching-Pattern: https://github.com/[^/]+/[^/]+/releases/download/(?:v[\d\.]+)/@PACKAGE@@ANY_VERSION@@ARCHIVE_EXT@
